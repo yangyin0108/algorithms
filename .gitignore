@@ -1,0 +1,31 @@
+# Python 字节码缓存
+__pycache__/
+*.py[cod]
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# 编辑器
+.vscode/
+.idea/
+
+# 数据与模型文件（太大，不进版本库）
+*.csv
+*.xlsx
+*.pt
+*.pth
+*.onnx
+
+# Jupyter
+.ipynb_checkpoints/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 密钥（绝对不能传）
+.env
+*.key
+*.pem
